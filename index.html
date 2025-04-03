@@ -1,55 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Leonel Gonzales Penarez</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi Portafolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#testimonials">Testimonios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Portafolio de Leonel Gonzales Penarez</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#testimonials">Testimonios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <section id="about" class="fade-in">
-        <h2>Sobre Mí</h2>
-        <p>Hola, soy [Tu Nombre], un desarrollador apasionado por la tecnología y la inteligencia artificial.</p>
+      <h2>Sobre Mí</h2>
+      <p>Soy Leonel Gonzales Penarez, estudiante y desarrollador con interés en la inteligencia artificial, el desarrollo web moderno y la dirección de proyectos. Me gusta aplicar la tecnología para resolver problemas reales y mejorar procesos.</p>
+      <button onclick="window.location='#contact'">Contáctame</button>
     </section>
+
     <section id="skills" class="fade-in">
-        <h2>Habilidades</h2>
-        <ul>
-            <li><i class="fas fa-code"></i> Desarrollo Web</li>
-            <li><i class="fas fa-brain"></i> Inteligencia Artificial</li>
-            <li><i class="fas fa-database"></i> Bases de Datos</li>
-        </ul>
+      <h2>Habilidades</h2>
+      <ul>
+        <li><i class="fas fa-code"></i> HTML, CSS, JavaScript</li>
+        <li><i class="fas fa-database"></i> Bases de Datos (MySQL, Firebase)</li>
+        <li><i class="fas fa-brain"></i> Fundamentos de IA</li>
+        <li><i class="fas fa-project-diagram"></i> Gestión de Proyectos Ágiles</li>
+      </ul>
     </section>
+
     <section id="projects" class="fade-in">
-        <h2>Proyectos</h2>
-        <p>Aquí podrás ver algunos de los proyectos en los que he trabajado.</p>
+      <h2>Proyectos</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>App de Tareas</h3>
+          <p>Aplicación web para registrar tareas, marcarlas como completadas y eliminarlas.</p>
+          <button onclick="alert('Demo no disponible')">Ver Proyecto</button>
+        </div>
+        <div class="card">
+          <h3>Calculadora de Gastos</h3>
+          <p>Permite ingresar ingresos/egresos y calcular el saldo mensual. Desarrollada con JS.</p>
+          <button onclick="alert('Demo no disponible')">Ver Proyecto</button>
+        </div>
+      </div>
     </section>
+
     <section id="blog" class="fade-in">
-        <h2>Blog</h2>
-        <p>Explora mis artículos sobre tecnología e inteligencia artificial.</p>
+      <h2>Blog</h2>
+      <p>Estoy escribiendo artículos sobre inteligencia artificial, desarrollo web y buenas prácticas en programación. Muy pronto compartiré el enlace aquí.</p>
     </section>
+
     <section id="testimonials" class="fade-in">
-        <h2>Testimonios</h2>
-        <p>Comentarios de personas con las que he trabajado.</p>
+      <h2>Testimonios</h2>
+      <p>"Leonel es un profesional comprometido. Su forma de organizar y liderar tareas nos ayudó a cumplir los objetivos del proyecto." – Compañero de clase</p>
     </section>
+
     <section id="contact" class="fade-in">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través de mi correo: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+      <h2>Contacto</h2>
+      <p>¿Quieres colaborar en un proyecto o necesitas ayuda? Escríbeme:</p>
+      <button onclick="window.location='mailto:leonel@example.com'">Enviar Correo</button>
     </section>
-    <script src="script.js"></script>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Leonel Gonzales Penarez. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
